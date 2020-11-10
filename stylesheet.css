@@ -32,3 +32,10 @@
     grid-column: 3;
     grid-row: 4;
   }
+  .weather{
+    outline: solid lightgray 2px;
+    margin-right: 15px;
+  }
+  .search{
+    margin-left: 5px;
+  }

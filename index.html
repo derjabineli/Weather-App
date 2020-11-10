@@ -12,20 +12,32 @@
 
 </head>
 <body>
+  
+  <script src="java.js"></script>
+  
   <div class="jumbotron">
     <h1 class="display-4 title">Weather Dashboard</h1>
   </div>
 
   <div class="wrapper">
-    <div class="one">One</div>
-    <div class="two">Two</div>
+    <div class="one search">
+      <h1>Search for a City:</h1>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    <div class="two weather">
+      <h2 id="city"></h2>
+      <p id="temp"></p>
+      <p id="humidity"></p>
+      <p id="windSpeed"></p>
+      <p id="UVindex"></p>
+    </div>
     <div class="three">Three</div>
     <div class="four">Four</div>
     <div class="five">Five</div>
     <div class="six">Six</div>
   </div>
-  
-
-
 </body>
 </html>
